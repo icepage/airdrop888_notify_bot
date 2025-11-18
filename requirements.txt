@@ -1,0 +1,6 @@
+feedparser
+requests
+loguru
+croniter
+redis
+beautifulsoup4
