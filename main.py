@@ -214,7 +214,6 @@ def fetch_and_process(rss_url, proxies: str=None):
     logger.info(f"过滤后获得 {len(filtered_entries)} 条符合条件的消息")
 
     for entry in filtered_entries:
-        logger.info(entry)
         guid = entry.get("id")
         if not id:
             continue
