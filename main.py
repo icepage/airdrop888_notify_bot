@@ -42,6 +42,7 @@ EMOJI_MAPPING = {
     "🔗": "🔐",
     "🔥": "⭐",
     "⚠️": "🔔",
+    "📝": "📋",
 }
 
 def replace_emojis(text):
